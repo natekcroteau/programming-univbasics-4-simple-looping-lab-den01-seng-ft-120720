@@ -27,10 +27,11 @@ end
 
 def return_string_array(array)
   counter = 0 
+  second_array = new.array
+  
   while counter < array.length do
     puts array[counter]
-      output_array = new.array
-      output_array << array[counter]
+      second_array.push
     counter +=1 
   end    
 end
