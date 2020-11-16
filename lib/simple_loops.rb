@@ -30,7 +30,7 @@ def return_string_array(array)
   while counter < array.length do
     puts array[counter]
       output_array = new.array
-      output_array.push
+      output_array << array[counter]
     counter +=1 
   end    
 end
